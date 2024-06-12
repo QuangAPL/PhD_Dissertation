@@ -1,0 +1,5 @@
+def extract_text_from_phd (NexisUni) = raw_corpus.json
+def order_and_clean_corpus (raw_corpus) = clean_corpus.json
+def sampling_corpus(clean_corpus) = sampled_300.json
+def preprocess_corpus(sampled_300) = tokenized_300.json
+def vectorized_corpus(tokenized_300) = tfidf_vectorized_300.csv
